@@ -1,5 +1,10 @@
 name: Workflow
 
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   ci_module_cpp20_ubuntu:
     strategy:
